@@ -15,9 +15,12 @@ public class Publisher {
     private  String name;
     private String address;
 
+    public Publisher(){}
+
     public Publisher(String name, String address) {
         this.name = name;
         this.address = address;
+
     }
 
     public Long getId() {
@@ -27,7 +30,6 @@ public class Publisher {
     public void setId(Long id) {
         this.id = id;
     }
-
     public String getName() {
         return name;
     }
